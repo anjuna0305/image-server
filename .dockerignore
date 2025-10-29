@@ -1,0 +1,50 @@
+# Git files
+.git
+.gitignore
+
+# Documentation
+README.md
+*.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Uploads directory (will be created in container)
+uploads/
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.webp
+
+# Node.js files (for token generation script)
+node_modules/
+generate-signed-url.js
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+*_test.go
+test/
+
+# Build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
